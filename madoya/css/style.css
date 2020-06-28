@@ -1,0 +1,262 @@
+@charset "UTF-8";
+/*すべてのページ */
+ body{
+margin: 0
+background-color:black;
+}
+ html{
+  font-family: serif;
+  font-size: 20px;
+  background-color: black;
+}  
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+.toppagepc img{
+  width:100%;
+  display: block !important;
+}
+.toppagesm img{
+  width:100%;
+  position: relative;
+  display: none !important;
+} 
+
+
+footer{
+  line-height: 50px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+main{
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid #CCC;
+  background-color: white;
+} 
+header nav{
+  background-color: white;
+  margin: 0px 50px 0px auto;
+  text-align: right;
+} 
+.logo {
+  width:21%;
+  height:21%;
+  display: inline-block;
+  margin-top: 10px;
+} 
+header{
+  background-color: white;
+}
+.headertop{
+  display: flex;
+}  
+.tel2{
+  width:30%;
+  height:30%; 
+  display: inline-block; 
+  text-align: right;
+  margin-left:20px;  
+}   
+a:hover{
+  color:saddlebrown;
+}  
+.nav li{
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 25px;
+
+}
+.nav{
+  text-align: right;
+
+} 
+/* 窓屋について */
+.madoya{
+  text-align: left;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 100px;
+}
+.madoyatitle{
+   border-bottom:1px solid #CCC;
+}
+.madoyacontents{
+}
+
+/* 店舗情報 */
+.tenpo{
+  margin-bottom: 150px;
+}
+.tenpotitle{
+  border-bottom: 1px solid #CCC;
+  margin-left: 40px;
+}
+.tenpocontents{
+  margin-left: 40px;
+  margin-right: 10px;
+}
+.kasuga{
+  display:flex;
+}
+.kasuga img{
+  width: 500px;
+  margin-right:60px;
+}
+.tenpocontents h4{
+  text-align: center;
+  font-size: 18px;
+}
+
+/* 買取査定のお客様へ */
+.kaitoritop{
+  margin-bottom: 100px;
+}
+.kaitorititle{
+  border-bottom: 1px solid #CCC;
+  margin-left: 40px;
+}
+.kaitoriimg{
+  width:100%;
+}
+.kaitoricontents{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+
+/* スマホ向け */
+@media(max-width: 767px){
+  body{
+  margin: 0 ;
+  }
+  html{
+    font-family: serif;
+    font-size: 18px ;
+    line-height:1.8em;
+    color: blue;
+  }
+
+  img{
+    width: 100%;
+    height: auto;
+  }
+  .toppagepc img{
+    width:100%;
+    position: relative;
+    display: none !important;
+  }
+  .toppagesm img{
+    width:100%;
+    position: relative;
+    display: block !important;
+  }
+  .headerlogo{
+    width:40%;
+    height:40%;
+    position:absolute;
+    top:1%;
+    left:1%;
+  }
+  footer{
+    line-height:1.5em;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+
+  main{
+    width: 90%;
+    margin: 0 2px 0 16px;
+    border: 1px solid #CCC;
+  }
+  header nav{
+    background-color: white;
+    margin: 0px 10px 0px auto;
+    text-align: right;
+  }
+  .logo {
+    width:100%;
+    height:100%;
+    margin-top: 50px;
+
+  
+  .headertop{
+    display: flex;
+  }
+  .tel2{
+    width:70%;
+    height:70%;
+    display: block;
+    text-align: right;
+    margin-left:10px;
+  }
+  a:hover{
+    color:saddlebrown;
+  }
+  .nav li{
+    list-style-type: none;
+    display: block !important;
+    margin-right: 25px;
+  }
+  .nav{
+    text-align: right;
+
+  }
+
+  /* 窓屋について */
+  .madoya{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+  }
+  .madoyatitle{
+    border-bottom:1px solid #CCC;
+  }
+  
+
+  /* 店舗情報 */
+  .tenpo{
+    margin-bottom: 50px;
+  }
+  .tenpotitle{
+    border-bottom: 1px solid #CCC;
+    margin-left: 20px;
+  }
+  .tenpocontents{
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  .kasuga{
+    display: block !important;
+   
+  }
+  .kasuga img{
+    width: 100%;;
+    margin-right:20px;
+    margin-top: 0px;
+  }
+
+
+  /* 買取査定のお客様へ */
+  .kaitoritop{
+    margin-bottom: 50px;
+  }
+  .kaitorititle{
+    border-bottom: 1px solid #CCC;
+    margin-left: 20px;
+  }
+  .kaitoriimg{
+    width:100%;
+  }
+  .kaitoricontents{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
